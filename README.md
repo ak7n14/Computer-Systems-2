@@ -28,3 +28,11 @@ The objective for the 1st task was to program the rotary encoder and adjust the
 frequency of the flashing led light according to the input received.
 The code uses Dr Klaus Peter Zauner's adaptation of Peter Dannegger's code for
 scanning input received by the rotary encoder
+
+##Task 2
+
+The objective for this task was to make our own minimal printf function using
+the lcd library on the laFortuna board.The program uses the lcd.h and lcd.c
+libraries made for laFortuna board made by Professor Steve Gunn and the code for
+the printf function is inspired by tiny printf that can be found on
+http://www.sparetimelabs.com/printfrevisited/printfrevisited.php
