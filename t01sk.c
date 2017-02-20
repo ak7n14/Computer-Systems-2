@@ -83,7 +83,7 @@ void init(void) {
 
 
     /* SET OCR0A FOR A 1 MS PERIOD */
-	OCR0A= F_CPU/2000 -1;
+	  OCR0A= F_CPU/64*2000 -1;
 
     /* ENABLE TIMER INTERRUPT */
 		TIMSK0 |= _BV(OCIE0A);
