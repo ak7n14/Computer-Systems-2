@@ -36,3 +36,9 @@ the lcd library on the laFortuna board.The program uses the lcd.h and lcd.c
 libraries made for laFortuna board made by Professor Steve Gunn and the code for
 the printf function is inspired by tiny printf that can be found on
 http://www.sparetimelabs.com/printfrevisited/printfrevisited.php
+
+
+##Task3
+
+The objective for this task was to understand scheduling in CPU processed and program the LED of the Fortuna hardware to turn on every time the CPU was idle(all processes were preparing to get executed or were on a delay). The second part of the task was to harmonically sync all the processes and see the behavior of the CPU on different task number, task period, and task duration.
+Some of the code used in the task is Dr. Klaus Peter Zauner's adaptation of RIOS version 1.2 by Frank Vahid, Tony Givargis, and Bailey Miller from Univ. of California, Riverside and Irvine adapted for the AVR hardware.
